@@ -249,7 +249,7 @@ nav button:hover{
 .quote-sect{
     background: #FFFFFF;
     height: 245px;
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat; 
     background-position: left 25px top 25px;
     display: flex;
