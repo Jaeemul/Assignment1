@@ -48,7 +48,8 @@ nav button{
 }
 
 nav button:hover{
-    background: #e1f4eb;
+    background: #6cdda8;
+    cursor: pointer;
 }
 
 .banner{
@@ -80,6 +81,7 @@ nav button:hover{
 
 .btn-banner:hover{
     background: #078767;
+    cursor: pointer;
 }
 
 .banner-id{
@@ -127,6 +129,7 @@ nav button:hover{
     width: 302px;
     height: 244px;
     background-color: #FFFFFF;
+    border-radius: 16px;
 }
 
 .vision-sect{
@@ -209,6 +212,7 @@ nav button:hover{
 
 .blue-btn:hover{
     background: rgb(31, 104, 231);
+    cursor: pointer;
 }
 
 .green-btn{
@@ -217,14 +221,17 @@ nav button:hover{
 
 .green-btn:hover{
     background: rgb(21, 135, 84);
+    cursor: pointer;
 }
 
 .orange-btn{
     background: rgba(255, 194, 57, 1);
+    cursor: pointer;
 }
 
 .orange-btn:hover{
     background: rgb(247, 182, 31);
+    cursor: pointer;
 }
 
 .blue{
@@ -294,5 +301,210 @@ nav button:hover{
     background: #FFFFFF;
     border-radius: 16px;
     margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
 }
 
+.news-sect-bio{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.news-container img{
+    width: 700px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+
+.news-brief{
+   margin-bottom: 30px;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.news-brief img{
+    width: 134px;
+    height: 40px;
+    overflow: visible;
+}
+
+.news-date, .news-info{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.btn-news{
+    font-size: 16px;
+    font-weight: 600; 
+    color: #FFFFFF;
+    background: rgba(0, 106, 80, 1);
+    /* width: 139px;
+    height: 48px; */
+    border-radius: 8px;
+    padding: 13px 26px;
+    border: 0;
+}
+
+.btn-news:hover{
+    background: rgb(15, 190, 147);
+    cursor: pointer;
+}
+
+.news-date{
+    display: flex;
+    justify-content: flex-start;  
+}
+
+.news-date span{
+    margin-right: 22px;
+}
+
+.donation-sect{
+    margin-top: 80px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cash{
+    width: 1070px;
+    height: 128px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;  
+    /* background: #006A50; */
+}
+
+.amount{
+    width:240px;
+    height: 128px;
+    background: #FFFFFF;
+    gap: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.amount:hover{
+    background: rgba(237, 87, 87, 0.8);
+    cursor: pointer;
+}
+
+.donation-sect input{
+    width: 989px;
+    height: 58px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: auto;
+    color: rgba(14, 14, 14, 0.3);
+    border: 0;
+}
+
+.donation-sect button{
+    width: 135px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: rgba(0, 106, 80, 1);
+    border: 0;
+    border-radius: 8px;
+}
+
+.donation-sect button:hover{
+    background: rgb(15, 182, 140);
+    cursor: pointer;
+}
+
+.donation-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -6px;
+}
+
+.green-donation{
+    background: rgba(198, 228, 214, 1);
+}
+
+.subscribe-sect{
+    background: rgba(198, 228, 214, 1);
+    height: 380px;
+    margin-top: 80px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+}
+
+.subscribe-sect h2{
+    margin-bottom: -4px;
+}
+
+.sub-sect-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 620px;
+    text-align: center;
+} 
+
+.sub-input-container{
+    width: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-input-container input{
+    padding-left: 40px;
+    width: 600px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: rgba(14, 14, 14, 0.3);
+    border: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.sub-input-container button{
+    width: 150px;
+    height: 56px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: rgba(0, 106, 80, 1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sub-input-container button:hover{
+    background: rgb(20, 187, 145);
+    cursor: pointer;
+}
+
+.sub-spam-text{
+    font-size: 15px;
+    font-weight: 400;
+} 
