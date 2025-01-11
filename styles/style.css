@@ -289,3 +289,10 @@ nav button:hover{
     border-radius: 16px;
 }
 
+.news-container{
+    height: 402px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
