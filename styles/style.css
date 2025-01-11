@@ -47,6 +47,10 @@ nav button{
     border: 2px solid #006A50;
 }
 
+nav button:hover{
+    background: #e1f4eb;
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -137,7 +141,7 @@ nav button{
 }
 
 .energy-sect{
-    height: 48px;
+    margin-bottom: 32px;
 }
 
 .vision-cards{
@@ -234,3 +238,54 @@ nav button{
 .orange{
     background: rgba(247, 235, 207, 1);
 }
+
+.quote-sect{
+    background: #FFFFFF;
+    height: 245px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat; 
+    background-position: left 25px top 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.quote-container{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.quote-info{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: -12px;
+}
+
+.quote-name{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-status{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: -20px;
+}
+
+.opinion-sect{
+    margin-top: 80px;
+}
+
+.question-container{
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
